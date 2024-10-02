@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -8,13 +8,16 @@ function App() {
 
   return (
     <>
-      <div className='bg-orange-700 text-white mt-0 mb-0 h-full w-screen'>
-      <nav className='p-4 m-4'>
-          <a className='p-4 decoration-none text-white uppercase hover:text-black'>Home</a>
-          <a className='p-4 decoration-none text-white uppercase hover:text-black'>About</a>
-          <a className='p-4 decoration-none text-white uppercase hover:text-black'>Contact</a>
+    <div className='mt-0 mb-0 w-full h-full fixed top-0 bottom-0 left-0 right-0'>
+      <header className='flex flex-col'>
+        <nav className='p-3 bg-orange-700 h-12 w-full m-4 rounded-lg fixed top-0 left-0 bot\ right-0'>
+          <a className='mt-6 mb-6 p-5 text-white hover:text-black'>home</a>
+          <a className='p-5 text-white hover:text-black'>about</a>
+          <a className='p-5 text-white hover:text-black'>contact</a>
+          <a className='p-5 text-white hover:text-black'>blogs</a>
         </nav>
-      </div>
+      </header>
+    </div>
     </>
   )
 }
